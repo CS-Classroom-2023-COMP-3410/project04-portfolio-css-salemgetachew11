@@ -1,0 +1,92 @@
+/* Page Styling */
+body {
+    background: linear-gradient(to bottom, #1e3c72, #2a5298); /* Blue gradient background */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000; /* Blue text for contrast */
+}
+
+/* Central Letterbox Design */
+.container {
+    width: 90%; /* Occupy most of the width */
+    max-width: 800px; /* Limit the maximum width */
+    background-color: #c3a6a6; /* White background for the content box */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+header, nav, main, footer {
+    margin-bottom: 20px;
+}
+
+/* Navigation Links */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 10px 20px;
+    border: 2px solid #000000; /* Blue border */
+    color: #000000; /* Blue text */
+    text-decoration: none; /* Remove underline */
+    background-color: #e6dfdf; /* White background */
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+    border-radius: 5px; /* Rounded corners */
+}
+
+nav a:hover {
+    background-color: #ede5e5; /* Blue background on hover */
+    color: #0a0909; /* White text on hover */
+}
+
+/* Sections Styling */
+main h2 {
+    font-size: 1.5rem; /* Slightly larger font for section headings */
+    margin-bottom: 10px;
+    color: #010101; /* Blue text for headings */
+}
+
+main p {
+    line-height: 1.6; /* Improve readability */
+    font-size: 1rem;
+    color: #000000; /* Blue text for paragraphs */
+}
+
+/* Recent Favorites Section */
+.favorites {
+    display: flex;
+    justify-content: space-around; /* Evenly space items horizontally */
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping if the screen is too small */
+    margin-top: 20px;
+}
+
+.favorite-item {
+    text-align: center;
+    margin: 10px; /* Add spacing between items */
+}
+
+.favorite-item img {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #000000; /* Blue text for footer */
+}

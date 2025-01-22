@@ -1,0 +1,120 @@
+/* Page Styling */
+body {
+    background: linear-gradient(to bottom, #add8e6, #00008b); /* Gradient from light blue to dark blue */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* White text for better contrast */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff; /* White header text */
+    font-size: 2rem; /* Larger font for the header */
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #ffffff; /* White border */
+    border-radius: 5px;
+    background-color: #00008b; /* Dark blue background for links */
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+    background-color: #add8e6; /* Light blue background on hover */
+    color: #00008b; /* Dark blue text on hover */
+}
+
+/* Form Styling */
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Dark grey label text */
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Standard font size */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    color: white;
+    background-color: #00008b; /* Dark blue */
+    border: none;
+    border-radius: 4px; /* Rounded edges */
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #add8e6; /* Light blue on hover */
+    color: #00008b; /* Dark blue text on hover */
+}
+
+/* Contact Information */
+.contact-info {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #ffffff; /* White text for the contact info */
+}
+
+.contact-info p {
+    margin: 5px 0; /* Space between paragraphs */
+}
+
+.contact-info a {
+    color: #ffffff; /* White links */
+    text-decoration: underline;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Space above the image */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ffffff; /* White text */
+}

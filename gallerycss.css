@@ -1,0 +1,88 @@
+/* Page Styling */
+body {
+    background: linear-gradient(to bottom, #fcc1df, #f5a3c3); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark grey text for better readability */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: #000; /* Black header text */
+    font-size: 2rem; /* Larger font for the header */
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #333; /* Dark grey border */
+    border-radius: 5px;
+    background-color: #fff; /* White background for contrast */
+    color: #333; /* Matching dark grey text */
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #333; /* Dark background on hover */
+    color: #fff; /* White text on hover */
+}
+
+/* Main Content */
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
+    width: 90%; /* Adjust width for responsive layout */
+    max-width: 1200px; /* Limit max width */
+}
+
+/* Image Container */
+main div {
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    background-color: #fff; /* White background for cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main div:hover {
+    transform: translateY(-10px); /* Lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+img {
+    width: 100%; /* Full width images */
+    height: auto; /* Maintain aspect ratio */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.image-description {
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+    background: #fafafa; /* Light grey background for descriptions */
+    color: #555; /* Slightly darker grey text */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555;
+}
